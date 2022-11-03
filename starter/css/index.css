@@ -8,11 +8,20 @@ footer {
 } 
 .cardContainer {
   margin-top: 20px;
+  text-align: center;
 }
 .card {
   margin: 0 auto;
+  }
+.sectionHeading{
+  text-align: center;
 }
-
+.showsNear{
+  padding: 0px 30px 30px 30px;
+}
+.content{
+  padding: 50px;
+}
 .customnav{
   position: fixed;
   width: 100%;
@@ -80,4 +89,14 @@ p{
   max-width: 700px;
   color:#fff;
   text-align: center;
+}
+
+/*content classes*/
+.valueProp{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.sideAccent{
+  background: #007bff;
+  width: 15px;
 }
